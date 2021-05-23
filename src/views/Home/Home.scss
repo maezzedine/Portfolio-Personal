@@ -8,6 +8,7 @@
     text-align: center;
     padding-bottom: 10vh;
     position: relative;
+    
 
     .name {
         font-size: 3em;
@@ -36,22 +37,26 @@
     .arrow {
         position: absolute;
         bottom: 100px;
-        width: 20%;
+        width: 100%;
         height: 10%;
-        left: 40%;
         color: $txt-1;
         text-decoration: none;
-        // right: 50%;
 
-        i {
-            font-size: 7em;
-            color: inherit;
-            opacity: 0.2;
-
-            &:hover {
-                opacity: 1;
-                transform: translateY(10px) scale(1.1);
+        a {
+            text-decoration: none;
+            
+            i {
+                font-size: 7em;
+                color: inherit;
+                opacity: 0.2;
+                text-align: center;
+    
+                &:hover {
+                    opacity: 1;
+                    transform: translateY(10px) scale(1.1);
+                }
             }
         }
+
     }
 }

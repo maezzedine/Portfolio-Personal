@@ -1,4 +1,26 @@
 .overview {
     background-color: $bg-2;
-    height: 120vh;
+    min-height: 100vh;
+
+    a {
+        text-decoration: none;
+        
+        .v-tab {
+            height: 100%;
+        }
+    }
+
+    .body {
+        width: 80%;
+        
+        @media (max-width: 700px) {
+            width: 90%;
+        }
+
+        .divider {
+            position: relative;
+            border: 1px solid;
+            padding: 10px;
+        }
+    }
 }

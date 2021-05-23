@@ -1,0 +1,21 @@
+.education {
+
+    .aub-info {
+        justify-content: space-between;
+    }
+
+    .row-card {
+        flex-direction: row !important;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .v-divider--inset:not(.v-divider--vertical) {
+        margin-left: 1px !important;
+        width: 100% !important;
+        max-width: calc(100% - 2px) !important;
+    }
+}
